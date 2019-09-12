@@ -17,7 +17,7 @@ Antes de iniciar, é recomendável que a maquina esteja conectada na internet pa
 Se você não possui a imagem de instalação, pode baixar diretamente do site Linux Mint, clicando [aqui](https://www.linuxmint.com/download.php), você será redirecionado a página de downloads.  
 
 - PASSO 1: Abra o menu de instalação, clicando no ícone de um CD **“Install Linux Mint”**.  
-[IMAGEM]
+![](https://github.com/gvieira29/install-mint/blob/master/images/m1-install.png)
 
 - PASSO 2: Selecione o idioma que deseja utilizar no sistema, aqui vamos usar Português do Brasil.  
 [IMAGEM]
