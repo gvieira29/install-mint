@@ -1,16 +1,16 @@
-#GUIA DE INSTALAÇÃO – LINUX MINT 19.2 “TINA”
+# GUIA DE INSTALAÇÃO – LINUX MINT 19.2 “TINA”
 
 O Linux Mint é uma distribuição muito popular baseado no Ubuntu, e uma das mais conhecidas entre os iniciantes do mundo Linux por ser fácil o uso, e por sua aparência semelhante ao da Microsoft.
 
 Este guia ira mostrar como instalar o Linux Mint 19.2 com a interface Cinnamon, mas o método utilizado aqui, é o mesmo em outras versões e interfaces, pois o instalador não muda.
 Antes de instalar, verifique as configurações da maquiná que deseja instalar, é recomendável ter um mínimo de 2GB de RAM e também 15GB de espaço livre no HD.
 
-#SESSÃO LIVE
+## SESSÃO LIVE
 
 Ao dar *boot* pela primeira vez você ira ver esta tela abaixo, aqui já é possível você utilizar e testar o sistema, antes de iniciar a instalação, o sistema esta rodando diretamente do pendrive e assim você pode verificar na sua máquina se realmente agradou e deseja prosseguir a instalação.
 [IMAGEM]
 
-#INSTALAÇÃO
+## INSTALAÇÃO
 
 Antes de iniciar, é recomendável que a maquina esteja conectada na internet para durante a instalação o sistema poder baixar alguns pacotes da rede.
 
@@ -56,29 +56,30 @@ Não se esqueça de remover a mídia de instalação antes de reiniciar a maquin
 Pronto o Sistema operacional esta instalado e pronto para ser usado.
 [IMAGEM]
 
-#ATUALIZAÇÃO DO SISTEMA
+## ATUALIZAÇÃO DO SISTEMA
 
 Com o nosso sistema instalado, você pode fazer uma atualização, vamos fazer um guia rápido, acompanhe:
 
 - PASSO 1: Vamos definir uma senha de Administrador do sistema (root), ou Super Usuário. Abra um terminal e digite:
-
+```bash
 sudo passwd
+```
 [IMAGEM]
 
 Ira pedir para digitar sua senha, a do seu usuário, em seguida uma nova senha de administrador, e então uma confirmação. Apos ter confirmado a senha você deverá estar nessa tela.
 [IMAGEM]
 
 - PASSO 2: Digite o comando su, ira pedir a senha de Administrador que você acabou de criar.
-...
+```bash
 su
-...
+```
 [IMAGEM]
 
 - PASSO 3: Por ultimo, basta rodar o comando abaixo que ira atualizar o seu sistema, não é necessário reiniciar, mas é recomendável uma reinicialização após atualizar, para aplicar as mudanças.
-...
+```bash
 apt-get update && apt-get upgrade -y
-...
+```
 [IMAGEM]
 
-apt-get update == atualiza o repositório, verificando por novas atualizações
-apt-get upgrade == faz baixa e instala as atualizações, o termo -y na frente, representa yes, se não for utilizado, quando rodar o comando, ira perguntar se você deseja realmente instalar as atualizações, dando as opções [Y/N], deixando tudo junto, rodamos apenas um comando, deixando o dia a dia mais prático.
+`apt-get update` == atualiza o repositório, verificando por novas atualizações
+`apt-get upgrade` == faz baixa e instala as atualizações, o termo `-y` na frente, representa yes, se não for utilizado, quando rodar o comando, ira perguntar se você deseja realmente instalar as atualizações, dando as opções `[Y/N]`, deixando tudo junto, rodamos apenas um comando, deixando o dia a dia mais prático.
